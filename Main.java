@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args) {
         // Create a user
         User user = new User("Alice", "alice@example.com");
+
+        
         user.register();
         user.login();
 
